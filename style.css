@@ -1,0 +1,86 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+  
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    /* background: rgba(0, 0, 0, 0.5); */
+    /* color: #f1f1f1;
+    width: 100%; */
+    padding: 20px;
+}
+  
+#myBtn {
+    /* width: 200px; */
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    /* background: rgb(139, 34, 134); */
+    color: #fff;
+    cursor: pointer;
+}
+  
+#myBtn:hover {
+    background: wheat;
+    color: black;
+}
+
+#templateDisplay{
+    position: fixed;
+    margin-top: 14%;
+    width: 80%;
+    /* margin-right: 4%; */
+    
+}
+
+.errorMessage{
+    margin-top: 12%;
+    position: fixed;
+    color: red;
+    font-weight: bold;
+}
+
+.input-group{
+    position: fixed;
+    width: 500px;
+    margin-left: 18%;
+    padding-top: 0.5rem;
+}
+
+.input-group-text{
+    background-color: rgb(91, 159, 204);
+    font-weight: bold;
+    color: white;
+}
+
+#addBtn{
+    background-color: rgb(81, 230, 118);
+    color: white;
+
+}
+/* #modalBtn{
+    position: fixed;
+} */
+/* .modal-content{
+    position: fixed;
+} */
+/* #exampleModal{
+    position: fixed;
+} */
+
+/* .addingBtn{
+    position: fixed;
+} */
+  
